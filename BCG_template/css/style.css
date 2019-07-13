@@ -208,6 +208,17 @@ section .overlay {
     opacity: 0.8;
 }
 
+#get-in-touch .curve-bottom {
+    top: inherit;
+    bottom: 0;
+    z-index: 9;
+}
+
+#get-in-touch .curve-top {
+    top: 500px;
+    z-index: 9;
+}
+
 #googleMap {
     position: absolute;
     width: 100%;
@@ -215,13 +226,13 @@ section .overlay {
 }
 
 .contact-box {
-    position: absolute;
+    position: relative;
     z-index: 9;
     background: #fff;
     border-radius: 25px;
     padding: 30px 50px;
     box-shadow: 1px 1px 10px #c7c7c7;
-    transform: translateY(-340px);
+    transform: translateY(-280px);
 }
 
 .contact-box:after {
@@ -288,6 +299,10 @@ section .overlay {
     position: relative;
 }
 
+#similar p {
+    /* font-size: 16px; */
+}
+
 
 
 
@@ -309,9 +324,9 @@ input::-webkit-search-cancel-button {
 
 
 input[type=search] {
-    background: #ededed url(../img/bcg/icon-search.png) no-repeat center right 9px;
+    background: #ededed url(../img/bcg/icon-search.png) no-repeat center right 5px;
     border: 0;
-    padding: 9px 32px 9px 10px;
+    /* padding: 9px 32px 9px 10px; */
     width: 55px;
     -webkit-border-radius: 10em;
     -moz-border-radius: 10em;
@@ -341,11 +356,13 @@ input::-webkit-input-placeholder {
 #navbar-search {
     position: absolute;
     right: 0;
+    top: -2px;
 }
 
 #navbar-search input[type=search] {
-    width: 15px;
-    padding-right: 10px;
+    width: 30px;
+    height: 30px;
+    /* padding-right: 10px; */
     color: transparent;
     cursor: pointer;
 }
@@ -357,6 +374,7 @@ input::-webkit-input-placeholder {
 #navbar-search input[type=search]:focus {
     width: 150px;
     padding-right: 32px;
+    padding-left: 10px;
     color: #fff;
     background-color: #06b243;
     cursor: auto;
@@ -391,8 +409,11 @@ input::-webkit-input-placeholder {
 }
 
 .carousel-cell .content p {
-    line-height: 20px;
+    /* line-height: 20px; */
     margin-bottom: 20px;
+    font-size: 0.9rem;
+    line-height: 1.3;
+    font-family: helveticaLight;
 }
 
 .carousel-cell .content .more img {
@@ -413,7 +434,7 @@ input::-webkit-input-placeholder {
 }
 
 
-@import url("https://fonts.googleapis.com/css?family=Hind:400,700");
+/* @import url("https://fonts.googleapis.com/css?family=Hind:400,700");
 
 html,
 body {
@@ -423,7 +444,7 @@ body {
     background-color: #d9e2fd;
     width: 100%;
     height: 100%;
-}
+} */
 
 img {
     max-width: 100%;
