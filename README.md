@@ -1,7 +1,7 @@
 # project-website-template
 This is a responsive (mobile/desktop) single-page template.
 
-- Project webstie: [http://biswa-world.com.preview.services/](http://biswa-world.com.preview.services/)
+- Project webstie: [http://biswa-world.com](http://biswa-world.com)
 
 ## Built with
 - HTML 5
